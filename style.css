@@ -1,0 +1,238 @@
+
+header{
+    background:  #13a2ce ;
+    background-size: cover;
+    /* este se usa para poner url(img/logoc.jpg) */
+}
+
+.bg-portafolio{
+    background: #610505c7;
+    
+}
+.bg-portafolio ul li a {
+    color: aqua;
+}
+.navbar{
+    padding-right: 230px;
+    padding-left: 230px;
+}
+.navbar a{
+    font-size:15px;
+
+}
+.img__header{
+width: 100px;
+text-align: center;
+}
+
+.brujula_header{
+    padding-left:10px;
+    padding-top:50px;
+    width: 40%;
+
+    
+
+}
+.rumbo{
+    color: #000000;
+    font-size: 25PX;    
+    padding-bottom: 0;
+    text-align: left;
+    padding-left: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.sobre{
+    color: #020202;
+    font-size: 35PX;    
+    padding-bottom: 0;
+    text-align: left;
+    padding-left: 10px;
+    font-family: "Poppins", sans-serif;
+}    
+.parrafo{
+    color: #ffffff;  
+    font-size:20px;
+    padding:10px;
+    padding-top: 0;
+    text-align: left;
+
+}
+.empezar{
+    background-color: #066913;
+    border-radius:7px;
+    color: #000000;
+    font-size:15px; 
+    margin-left:10px;
+    margin-bottom:10px;
+    margin-top:5px ;
+}
+
+.carousel{
+    margin-right: 0%;
+}
+
+#container{
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    max-width: 1300px;
+}
+
+#dashboard{
+    position: relative;
+    width: 100%;
+}
+
+
+#dashboard .sidebar{
+    padding: 40px 30px;
+    text-align: center;
+    /* vh significa el ancho de la pantalla */
+    height: 100vh;
+    color: rgb(22, 104, 177);
+}
+
+.sidebar ul a{
+    /* organizar el contenido y decorar */
+    display: block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: #0099ff;
+    padding: 14px;
+    margin-bottom: 12px;
+    transition: .5s;
+}
+
+
+
+.sidebar ul a:hover{
+    border-radius: 20px;
+    background: linear-gradient(hsl(120, 94%, 46%), #ab23bd);
+
+}
+/* organizar las margenes de los bloques dentro del menu */
+
+.sidebar ul{
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+}
+#container p{
+    padding-bottom:50px;
+}
+
+.planes{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.inline{
+    display: flex;
+   
+}
+.inline h3{
+    color: #000000;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.inline p{
+    font-size:20px;
+    text-align: center;
+    
+}
+.senderismo{
+    /* background: url(img/senderismo.png); */
+    background-size: cover;
+    width: 90%;
+    background: #000000;
+    
+}
+.canotaje{
+    /* background: url(img/canotaje.png); */
+    background-size: cover;
+    width: 90%;
+}
+.camping{
+    /* background: url(img/camping.png); */
+    background-size: cover;
+    width: 90%;
+}
+
+#destinos {
+    padding: 150px ;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url(img/que-son-paradigmas-programacion.jpg);
+    background-size: contain;
+    width: 100%;
+    
+
+}
+.respon{
+ width: 100%;
+}
+
+
+#destinos p{
+    font-size: 30px;
+    padding-bottom:50px;
+}
+#destinos h2{
+    margin-bottom: 90px;
+    color:yellow;
+    font-size: 35px;
+    font-weight:bolder;
+   
+}
+.card-destinos{
+  color: #eb1a1a;
+}
+.contacto{
+    background-color: #ffff00;
+    width: 100%;
+    display:inline-block;
+}
+.contacto h2{
+    padding-top:40px;
+    padding-bottom:10px;
+    font-weight: bold;
+}
+.section {
+    display: inline-block;
+    padding-right:10px;
+    padding-left:10px;
+    width:25%;
+    padding-bottom:30px;
+}
+.boton{
+    border-radius:2px;
+    border: 0px;
+    background:#4040407e;
+    margin-bottom:100px;
+    color: #ffffff;
+    width:10%;
+    padding-bottom:2px;
+
+}
+.footer{
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+}
+/* se modifica el logo de tamaño */
+#yo img{
+    width:80px;
+    height: 80px;
+}
+
+.menuW{
+    position: fixed;
+    z-index: 900;
+    width: 100%;
+}
+
+.carousel .slide{
+    text-align: start;    
+}
